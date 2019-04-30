@@ -1,0 +1,109 @@
+.van-button--primary {
+  width: 135px;
+  height: 40px;
+  background: linear-gradient(308deg, #92afdd 0%, #456392 100%);
+  box-shadow: 0px 0px 4px 0px rgba(82, 114, 167, 0.5);
+  border-radius: 20px;
+  border-width: 0px;
+}
+.van-button--info {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: linear-gradient(308deg, #d6d6d6 0%, #757575 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  color: #f4403d;
+  border-width: 0px;
+}
+.van-button--danger {
+  width: 135px;
+  height: 40px;
+  background: linear-gradient(308deg, #ffa897 0%, #f43d3b 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  color: #f4403d;
+  border-width: 0px;
+}
+.van-button--large {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(308deg, #ffa897 0%, #f43d3b 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  border-width: 0px;
+  font-size: 15px;
+  color: #FFF;
+  margin: 35px auto 25px;
+  display: block;
+}
+.van-button--large1 {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(308deg, #ffa897 0%, #f43d3b 100%);
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  border-width: 0px;
+  font-size: 15px;
+  color: #FFF;
+  margin: 35px auto 25px;
+  display: block;
+}
+.van-button--warning {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  color: #f4403d;
+  border-width: 0px;
+}
+.van-dialog {
+  font-size: 15px;
+}
+.van-dialog .van-dialog__header {
+  color: #F4403D;
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.van-dialog .van-dialog__message--has-title {
+  color: #434D5D;
+}
+.van-dialog .van-dialog__message--has-title span {
+  color: #F4403D;
+}
+.van-dialog .van-dialog__message {
+  text-align: left;
+}
+.van-dialog .van-hairline--top .van-button--large:nth-child(1) {
+  box-shadow: 0px 0px 4px 0px rgba(82, 114, 167, 0.5);
+  background: linear-gradient(308deg, #92afdd 0%, #456392 100%);
+  margin-right: 10px;
+}
+.van-dialog .van-button--large {
+  margin: 14px auto 25px;
+}
+.van-dialog .van-dialog__footer--buttons {
+  padding: 0 25px;
+}
+textarea::-webkit-input-placeholder {
+  color: #c7cad0;
+}
+textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c7cad0;
+}
+textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c7cad0;
+}
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c7cad0;
+}

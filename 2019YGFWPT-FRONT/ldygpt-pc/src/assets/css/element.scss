@@ -1,0 +1,89 @@
+// 修改element-ui的样式
+.activityDialog{
+  .el-dialog{
+      background: rgba(240,242,245,1)!important
+  }
+  .el-dialog__body{
+    padding:10px
+  }
+  .activityIntroduction .el-form-item__content{
+    width: 500px;
+  }
+  .inputLength .el-input__inner{
+    width: 217px;
+  }
+  .dateInputLength .el-input__inner{
+    width: 217px;
+  }
+  .edui-default .edui-editor{
+    z-index:2000!important
+  }
+  .selectLength .el-input__inner{
+    width: 217px;
+  }
+  .activityAddDialog{
+    .el-dialog{
+      height: 488px;
+      overflow-y:scroll;
+    }
+  }
+  .insetInput .el-input__inner{
+    width: 190px;
+    border:none;
+    height: 32px;
+    position:absolute;
+    left:4px;
+    top:-62px
+  }
+  .bottom-content{
+    .el-form--inline .el-form-item{
+      height: 40px;
+    }
+  }
+  .activityAddDialog-row{
+    .el-form-item__content{
+      width: 217px!important;
+    }
+  }
+  .ruleInput{
+    display:flex;
+    .el-input__inner{
+      width: 200px;
+      margin-bottom:20px;
+      padding:0 13px
+    }
+    .lastInput{
+      .el-input__inner{
+        width: 50px;
+        margin-left:20px;
+        position: relative;
+      }
+    }
+  }
+  .el-form-item.is-required .el-form-item__label:before{
+    display:none
+  }
+}
+  .diningInput{
+    .el-input__inner{
+      margin-right:15px;
+      width:68px
+    }
+    .el-form-item__label{
+      width: 68px!important;
+    }
+    .el-form-item__content{
+      margin-left:68px!important
+    }
+    .interval{
+      .el-form-item__label{
+        width: 0!important;
+      }
+      .el-form-item__content{
+        margin-left:12px!important
+      }
+      .el-input__inner{
+        margin-left:8px
+      }
+    }
+  }

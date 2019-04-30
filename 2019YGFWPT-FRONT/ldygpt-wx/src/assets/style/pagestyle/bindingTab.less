@@ -1,0 +1,814 @@
+
+// 企业绑定
+#app{
+  .bindingPhone{
+    .van-tabs__line{
+      display: none;
+    }
+    .van-tab--active {
+      font-weight: 500;
+      color: #F4403D;
+      background: #fff;
+    }
+    .van-tabs__nav{
+      background-color: #F6F5F5;
+      color: #748095;
+    }
+    .van-tab{
+      padding:0;
+      font-size: 13px;
+    }
+    .van-button--primary {
+      width: 90px;
+      height: 30px;
+      background: #fff;
+      border: 1px solid #F4403D;
+      color: #F4403D;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+    .van-field__label {
+      max-width: 60px;
+    }
+    .van-hairline--top-bottom::after{
+      border-width: 0; 
+    }
+    .van-icon-contactImg{
+      width:12px;
+      height: 16px;
+      background: url(../../images/company_icon_01@2x.png) no-repeat;
+      background-size: 15px;
+    }
+    .van-icon-codeImg{
+      width:12px;
+      height: 16px;
+      background: url(../../images/codeImg.png) no-repeat;
+      background-size: 15px;;
+    }
+    .van-field__left-icon {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+    // .van-field:nth-child(2){
+    //   border-bottom: 1px solid #ebedf0;
+    // }
+    .van-cell:last-child::after { 
+      content: ' ';
+      position: absolute;
+      pointer-events: none;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      left: 15px;
+      right: 0;
+      bottom: 0;
+      -webkit-transform: scaleY(.5);
+      transform: scaleY(.5);
+      border-bottom: 1px solid #ebedf0;
+    }
+    .van-cell__title{
+      span{
+        color: #748095;
+        font-size: 15px;
+      }
+    }
+    .van-tab__pane{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .van-button--large{
+      margin: 52px auto 63px;
+      display: block;
+    }
+    .van-cell-group {
+      padding-top: 10px;
+    }
+    .van-tabs--line{
+      .van-tabs__wrap{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    } 
+    .van-cell{
+      align-items: self-end;
+    }
+  }
+  // 
+  .information{
+    .informationBox{
+      .van-icon-contact1{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_03@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact2{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_04@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact3{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_10@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact4{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_06@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact5{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_07@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact6{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_08@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact7{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_09@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact8{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_10@2x1.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact9{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_11@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contactArrows{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/icon_arrow@2x.png) no-repeat;
+        background-size: 8px;
+      }
+      .van-field__right-icon{
+        margin-right: -17px;
+      }
+      .van-field__left-icon {
+        margin-top: 3px;
+      }
+      .van-field__label {
+        max-width: 75px;
+        color: #748095;
+      }
+      .van-cell{
+        // border-bottom: 1px solid #ebedf0;
+        font-size: 15px;
+      }
+      .van-cell-group {
+        padding-top: 10px;
+      }
+    }
+    .van-button--large {
+      margin: 52px auto 63px;
+      display: block;
+    }
+    .van-button--large1 {
+      margin: 52px auto 63px;
+      // display: block;
+      background:linear-gradient(308deg,rgba(214,214,214,1) 0%,rgba(117,117,117,1) 100%);
+      box-shadow:0px 0px 4px 0px rgba(231,231,231,1);
+      border-radius:20px;
+      color:rgba(255,255,255,1);
+    }
+    .van-popup--top{
+      height: 100%;
+      background: #dcdee3;
+    }
+    // 顶部弹层
+    .van-popup--top{
+      form{
+        .van-search--show-action{
+          margin: 23px 10px;
+        }
+        .van-search{
+          padding:0;
+          border-radius: 5px;
+          .van-search__content{
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    
+  }
+}
+// 我的餐卡
+#app{
+  .topUp{
+    .van-button--primary {
+      width: 90px;
+      height: 30px;
+      background: #fff;
+      border: 1px solid #F4403D;
+      color: #F4403D;
+      border-radius: 20px;
+      white-space: nowrap;
+      box-shadow:none;
+    }
+  }
+
+}
+// 绑定餐卡
+#app{
+  .mealCard{
+    .van-tabs__line{
+      display: none;
+    }
+    .van-tab--active {
+      font-weight: 500;
+      color: #F4403D;
+      background: #fff;
+    }
+    .van-tabs__nav{
+      background-color: #F6F5F5;
+      color: #748095;
+    }
+    .van-tab{
+      padding:0;
+      font-size: 13px;
+    }
+    .van-button--primary {
+      width: 90px;
+      height: 30px;
+      background: #fff;
+      border: 1px solid #F4403D;
+      color: #F4403D;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+    .van-field__label {
+      max-width: 75px;
+      color: #748095;
+    }
+    .van-hairline--top-bottom::after{
+      border-width: 0; 
+    }
+    .van-icon-contactImg{
+      width:12px;
+      height: 16px;
+      background: url(../../images/company_icon_01@2x.png) no-repeat;
+      background-size: 15px;
+    }
+    .van-icon-contact3{
+      width:16px;
+      height: 16px;
+      background: url(../../images/icon/company_icon_10@2x.png) no-repeat;
+      background-size: 16px;
+    }
+    .van-icon-codeImg{
+      width:12px;
+      height: 16px;
+      background: url(../../images/codeImg.png) no-repeat;
+      background-size: 15px;;
+    }
+    .van-field__left-icon {
+      display: flex;
+      align-items: center;
+      margin-top: 5px;
+    }
+    .van-icon-contactArrows{
+      width:16px;
+      height: 16px;
+      background: url(../../images/icon/icon_arrow@2x.png) no-repeat;
+      background-size: 8px;
+    }
+    .van-cell:last-child::after { 
+      content: ' ';
+      position: absolute;
+      pointer-events: none;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      left: 15px;
+      right: 0;
+      bottom: 0;
+      -webkit-transform: scaleY(.5);
+      transform: scaleY(.5);
+      border-bottom: 1px solid #ebedf0;
+    }
+    .van-cell__title{
+      span{
+        color: #748095;
+        font-size: 15px;
+      }
+    }
+    .van-tab__pane{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .van-button--large{
+      margin: 52px auto 63px;
+      display: block;
+    }
+    .van-cell-group {
+      padding-top: 10px;
+    }
+    .van-tabs--line{
+      .van-tabs__wrap{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    } 
+    .van-cell{
+      align-items: self-end;
+    }
+    // 
+    .van-icon-mealCardIcon{
+      width:16px;
+      height: 16px;
+      background: url(../../images/icon/company_icon_03@2x.png) no-repeat;
+      background-size: 16px;
+    }
+  }
+}
+//餐卡充值
+#app{
+  .topUpMoney{
+    .myphone{
+      .van-field__label{
+        position: absolute;
+        right: 1px;
+        border-left: 1px solid #E7E8EC;
+        padding-left: 10px;
+        font-size:15px;
+        font-weight:400;
+        color:rgba(67,77,93,1);
+        line-height:21px;
+      }
+      .van-field__body{
+        input{
+          font-size: 18px;
+          font-weight: 600;
+          color: rgba(67,77,93,1);
+          line-height: 25px;
+        }
+      }
+      .van-field__body{
+        width: 85%;
+      }
+    }
+    .gardenClass{
+        width: 50%;
+        margin: 0 auto;
+        .van-field__control{
+          font-size: 15px;
+          /* font-family: PingFangSC-Semibold; */
+          font-weight: 600;
+          color: rgba(67,77,93,1);
+          line-height: 21px;
+          text-align: center;
+        }
+        .van-hairline--top-bottom::after{
+          border-width: 0;
+        }
+    }
+    
+    .van-field__right-icon{
+      width:12px;
+      height: 16px;
+      background: url(../../images/parking_arrow@2x.png) no-repeat;
+      background-size: 12px;
+      background-position: 0px;
+    }
+    .moneyListBox{
+      .van-cell{
+        padding:0;
+      }
+      .van-cell__value--alone{
+        background:rgba(243,206,205,1);
+        border-bottom: 1px solid #eee;
+      }
+    }
+    .van-hairline--top-bottom::after {
+      border-width: 0;
+  }
+    
+  }
+}
+// 充值成功
+#app{
+  .rechargesuccess{
+    .rechargesuccessBox{
+      .btnFooter{
+        .van-button--danger{
+          margin: 20px;
+        }
+      }
+    }
+  }
+}
+//车位长租
+#app{
+  .Parkingspace{
+    .van-cell:not(:last-child)::after{
+      // border-bottom: none;
+    }
+    .van-cell:nth-child(1)::after{
+      border-bottom: none;
+    }
+    .van-cell:nth-child(2)::before{
+      border-top: 1px solid #ebedf0;
+    }
+    .van-hairline--top-bottom::after{
+      // border-width: 0;
+    }
+    .van-hairline--top-bottom::after {
+      border-bottom: 1px solid #ebedf0;
+    }
+    .AreaClass{
+      width: 39%;
+      .van-field__control{
+        font-size: 18px;
+        /* font-family: PingFangSC-Semibold; */
+        font-weight: 600;
+        color: rgba(67,77,93,1);
+        line-height: 21px;
+        text-align: center;
+      }
+      .van-hairline--top-bottom::after{
+        border-width: 0;
+      }
+      .van-field__right-icon{
+        width:12px;
+        height: 16px;
+        background: url(../../images/parking_arrow@2x.png) no-repeat;
+        background-size: 12px;
+        background-position: 0px;
+      }
+      .van-field__left-icon{
+        width:12px;
+        height: 16px;
+        background: url(../../images/icon_map@2x.png) no-repeat;
+        background-size: 12px;
+        background-position: 0px 3px;
+      }
+      .moneyListBox{
+        .van-cell{
+          padding:0;
+        }
+        .van-cell__value--alone{
+          background:rgba(243,206,205,1);
+          border-bottom: 1px solid #eee;
+        }
+      }
+    }
+    .van-field__label {
+      max-width: 90px;
+      font-size: 15px;
+      font-weight: 400;
+      color: rgba(116,128,149,1);
+    }
+    .van-button--large{
+      margin: 33px auto 63px;
+      display: block;
+    }
+  }
+}
+//停车卡详情
+#app{
+  .Parkingcarddetails{
+    .Vehicletopup{
+      .van-button--primary {
+        width: 69px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #F4403D;
+        color: #F4403D;
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+      .van-field__label {
+        // max-width: 90px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #748095;
+      }
+      
+      .phoneClass{
+        .van-field__label{
+          color: #C7CAD0;
+        }
+        input::-webkit-input-placeholder{
+          color:#C7CAD0;
+      }
+      input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+          color:#C7CAD0;
+      }
+      input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+          color:#C7CAD0;
+      }
+      input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+          color:#C7CAD0;
+      }
+      }
+      .dataTimeBox{
+        .van-cell{
+          width: 37%;
+          padding: 10px 0;
+            .van-field__left-icon{
+              width:12px;
+              height: 16px;
+              background: url(../../images/parking_icon_date@2x.png) no-repeat;
+              background-size: 12px;
+              background-position: 0px;
+              position: absolute;
+              left: 69px;
+              top: 14px;
+            }
+            .van-field__control{
+              text-align: center;
+            }
+            
+        }
+        .van-cell:nth-child(1){
+          width: 63%;
+        }
+        .van-cell:nth-child(2){
+          .van-field__label{
+            max-width: 16px !important;
+          }
+        }
+      }
+    }
+    .btnvehicle{
+      display: flex;
+      justify-content: center;
+      padding:10px;
+      .van-button--primary {
+        width: 69px;
+        height: 26px;
+        line-height: 25px;
+        background: #fff;
+        border: 1px solid #748095;
+        color: #748095;
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+    }    
+    
+  }
+  
+}
+//个人中心
+#app{
+  .personal{
+    .van-button--warning{
+      width: 64px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      background: rgba(255,255,255,1);
+      box-shadow:0px 0px 4px 0px rgba(154,63,63,0.5);
+      border-radius:20px;
+      color:rgba(244,64,61,1);
+      border-width: 0px
+      }
+  }
+}
+//编辑
+#app{
+  .editBox{
+    .editform{
+      .van-icon-contact3{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_10@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contactImg{
+        width:12px;
+        height: 16px;
+        background: url(../../images/company_icon_01@2x.png) no-repeat;
+        background-size: 15px;
+      }
+      .van-icon-contact2{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_04@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact4{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_06@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact5{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_07@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact6{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_08@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact7{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_09@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact8{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_10@2x1.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-icon-contact9{
+        width:16px;
+        height: 16px;
+        background: url(../../images/icon/company_icon_11@2x.png) no-repeat;
+        background-size: 16px;
+      }
+      .van-field__left-icon {
+        margin-top: 3px;
+      }
+      .van-field__label {
+        max-width: 75px;
+        color: #748095;
+      }
+      .van-cell{
+        // border-bottom: 1px solid #ebedf0;
+        font-size: 15px;
+      }
+      .van-cell-group {
+        padding-top: 10px;
+      }
+      .van-button--large {
+        margin: 52px auto 63px;
+        display: block;
+      }
+      .van-popup--top{
+        height: 100%;
+        background: #dcdee3;
+      }
+    }
+  }
+}
+//活动
+#app{
+  .activity{
+    .van-tabs{
+      .van-tab--active {
+        color: #323233;
+        font-weight: 600;
+        color: rgba(244,64,61,1);
+        font-weight: 600;
+      }
+    }
+    .activityTitBox{
+      .van-button--primary {
+        width: 90px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #F4403D;
+        color: #F4403D;
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+      .van-button--info {
+        width: 90px;
+        height: 30px;
+        // background: #fff;
+        border: 1px solid rgba(199,202,208,1);
+        color: rgba(199,202,208,1);
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+    }
+    
+  }
+}
+//活动详情
+#app{
+  .activitydetails{
+    .activityTitBox{
+      .van-button--primary {
+        width: 67px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #F4403D;
+        color: #F4403D;
+        border-radius: 20px;
+        white-space: nowrap;
+        margin: 0 15px 0 20px;
+          .van-button__text{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          }
+      }
+      .van-button--info {
+        width: 81px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid rgba(199,202,208,1);
+        color: rgba(199,202,208,1);
+        border-radius: 20px;
+        white-space: nowrap;
+        margin: 0 15px 0 20px;
+          .van-button__text{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          }
+      }
+    }
+    
+  }
+}
+//报名
+#app{
+  .activityApply{
+    .van-icon-contactArrows{
+      width:16px;
+      height: 16px;
+      background: url(../../images/icon/icon_arrow@2x.png) no-repeat;
+      background-size: 8px;
+    }
+    .van-cell{
+      // padding: 10px 0;
+      font-size:15px;
+      font-weight:400;
+      color:rgba(116,128,149,1);
+      line-height:21px;
+      letter-spacing:1px;
+    }
+    .van-field__label {
+      max-width: 56px;
+    }
+    .likeActivity{
+      .van-field__label{
+        max-width: 136px;
+      }
+    }
+    // .van-checkbox{
+    //   margin-top:10px;
+    // }
+    .van-cell-group{
+      // padding: 10px;
+      // padding:10px;
+      // box-shadow:0px 0px 5px 0px rgba(152,155,165,0.5);
+      // border-radius:5px;
+    }
+    .van-checkbox{
+      padding:10px;
+    }
+  }
+}
+// 审批详情
+.approvaldetails{
+  .van-field__label{
+    font-size:15px;
+    font-weight:500;
+    color:rgba(116,128,149,1);
+    max-width: 76px;
+  }
+  .van-cell:not(:last-child)::after{
+    content: none
+  }
+  .van-field__control:disabled {
+    opacity: 1;
+    color: #434D5D;
+    background-color: transparent;
+  }
+  .van-cell{
+    padding: 7px 15px;
+  }
+}
+// 公告
+#app{
+  .bulletinList{
+    .bulletinListNull{
+      .van-button--primary {
+        width: 90px;
+        height: 30px;
+        background: #fff;
+        border: 1px solid #F4403D;
+        color: #F4403D;
+        border-radius: 20px;
+        white-space: nowrap;
+      }
+    }
+  }
+}

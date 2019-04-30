@@ -1,0 +1,662 @@
+#app .bindingPhone .van-tabs__line {
+  display: none;
+}
+#app .bindingPhone .van-tab--active {
+  font-weight: 500;
+  color: #F4403D;
+  background: #fff;
+}
+#app .bindingPhone .van-tabs__nav {
+  background-color: #F6F5F5;
+  color: #748095;
+}
+#app .bindingPhone .van-tab {
+  padding: 0;
+  font-size: 13px;
+}
+#app .bindingPhone .van-button--primary {
+  width: 90px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #F4403D;
+  color: #F4403D;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+#app .bindingPhone .van-field__label {
+  max-width: 60px;
+}
+#app .bindingPhone .van-hairline--top-bottom::after {
+  border-width: 0;
+}
+#app .bindingPhone .van-icon-contactImg {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/company_icon_01@2x.png) no-repeat;
+  background-size: 15px;
+}
+#app .bindingPhone .van-icon-codeImg {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/codeImg.png) no-repeat;
+  background-size: 15px;
+}
+#app .bindingPhone .van-field__left-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#app .bindingPhone .van-cell:last-child::after {
+  content: ' ';
+  position: absolute;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  left: 15px;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  border-bottom: 1px solid #ebedf0;
+}
+#app .bindingPhone .van-cell__title span {
+  color: #748095;
+  font-size: 15px;
+}
+#app .bindingPhone .van-tab__pane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#app .bindingPhone .van-button--large {
+  margin: 52px auto 63px;
+  display: block;
+}
+#app .bindingPhone .van-cell-group {
+  padding-top: 10px;
+}
+#app .bindingPhone .van-tabs--line .van-tabs__wrap {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#app .bindingPhone .van-cell {
+  align-items: self-end;
+}
+#app .information .informationBox .van-icon-contact1 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_03@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact2 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_04@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact3 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_10@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact4 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_06@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact5 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_07@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact6 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_08@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact7 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_09@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact8 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_10@2x1.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contact9 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_11@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .information .informationBox .van-icon-contactArrows {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/icon_arrow@2x.png) no-repeat;
+  background-size: 8px;
+}
+#app .information .informationBox .van-field__right-icon {
+  margin-right: -17px;
+}
+#app .information .informationBox .van-field__left-icon {
+  margin-top: 3px;
+}
+#app .information .informationBox .van-field__label {
+  max-width: 75px;
+  color: #748095;
+}
+#app .information .informationBox .van-cell {
+  font-size: 15px;
+}
+#app .information .informationBox .van-cell-group {
+  padding-top: 10px;
+}
+#app .information .van-button--large {
+  margin: 52px auto 63px;
+  display: block;
+}
+#app .information .van-button--large1 {
+  margin: 52px auto 63px;
+  background: linear-gradient(308deg, #d6d6d6 0%, #757575 100%);
+  box-shadow: 0px 0px 4px 0px #e7e7e7;
+  border-radius: 20px;
+  color: #ffffff;
+}
+#app .information .van-popup--top {
+  height: 100%;
+  background: #dcdee3;
+}
+#app .information .van-popup--top form .van-search--show-action {
+  margin: 23px 10px;
+}
+#app .information .van-popup--top form .van-search {
+  padding: 0;
+  border-radius: 5px;
+}
+#app .information .van-popup--top form .van-search .van-search__content {
+  border-radius: 5px;
+}
+#app .topUp .van-button--primary {
+  width: 90px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #F4403D;
+  color: #F4403D;
+  border-radius: 20px;
+  white-space: nowrap;
+  box-shadow: none;
+}
+#app .mealCard .van-tabs__line {
+  display: none;
+}
+#app .mealCard .van-tab--active {
+  font-weight: 500;
+  color: #F4403D;
+  background: #fff;
+}
+#app .mealCard .van-tabs__nav {
+  background-color: #F6F5F5;
+  color: #748095;
+}
+#app .mealCard .van-tab {
+  padding: 0;
+  font-size: 13px;
+}
+#app .mealCard .van-button--primary {
+  width: 90px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #F4403D;
+  color: #F4403D;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+#app .mealCard .van-field__label {
+  max-width: 75px;
+  color: #748095;
+}
+#app .mealCard .van-hairline--top-bottom::after {
+  border-width: 0;
+}
+#app .mealCard .van-icon-contactImg {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/company_icon_01@2x.png) no-repeat;
+  background-size: 15px;
+}
+#app .mealCard .van-icon-contact3 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_10@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .mealCard .van-icon-codeImg {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/codeImg.png) no-repeat;
+  background-size: 15px;
+}
+#app .mealCard .van-field__left-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#app .mealCard .van-icon-contactArrows {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/icon_arrow@2x.png) no-repeat;
+  background-size: 8px;
+}
+#app .mealCard .van-cell:last-child::after {
+  content: ' ';
+  position: absolute;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  left: 15px;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  border-bottom: 1px solid #ebedf0;
+}
+#app .mealCard .van-cell__title span {
+  color: #748095;
+  font-size: 15px;
+}
+#app .mealCard .van-tab__pane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#app .mealCard .van-button--large {
+  margin: 52px auto 63px;
+  display: block;
+}
+#app .mealCard .van-cell-group {
+  padding-top: 10px;
+}
+#app .mealCard .van-tabs--line .van-tabs__wrap {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#app .mealCard .van-cell {
+  align-items: self-end;
+}
+#app .mealCard .van-icon-mealCardIcon {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_03@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .topUpMoney .myphone .van-field__label {
+  position: absolute;
+  right: 1px;
+  border-left: 1px solid #E7E8EC;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #434d5d;
+  line-height: 21px;
+}
+#app .topUpMoney .myphone .van-field__body input {
+  font-size: 18px;
+  font-weight: 600;
+  color: #434d5d;
+  line-height: 25px;
+}
+#app .topUpMoney .myphone .van-field__body {
+  width: 85%;
+}
+#app .topUpMoney .gardenClass {
+  width: 50%;
+  margin: 0 auto;
+}
+#app .topUpMoney .gardenClass .van-field__control {
+  font-size: 15px;
+  /* font-family: PingFangSC-Semibold; */
+  font-weight: 600;
+  color: #434d5d;
+  line-height: 21px;
+  text-align: center;
+}
+#app .topUpMoney .gardenClass .van-hairline--top-bottom::after {
+  border-width: 0;
+}
+#app .topUpMoney .van-field__right-icon {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/parking_arrow@2x.png) no-repeat;
+  background-size: 12px;
+  background-position: 0px;
+}
+#app .topUpMoney .moneyListBox .van-cell {
+  padding: 0;
+}
+#app .topUpMoney .moneyListBox .van-cell__value--alone {
+  background: #f3cecd;
+  border-bottom: 1px solid #eee;
+}
+#app .topUpMoney .van-hairline--top-bottom::after {
+  border-width: 0;
+}
+#app .rechargesuccess .rechargesuccessBox .btnFooter .van-button--danger {
+  margin: 20px;
+}
+#app .Parkingspace .van-cell:nth-child(1)::after {
+  border-bottom: none;
+}
+#app .Parkingspace .van-cell:nth-child(2)::before {
+  border-top: 1px solid #ebedf0;
+}
+#app .Parkingspace .van-hairline--top-bottom::after {
+  border-bottom: 1px solid #ebedf0;
+}
+#app .Parkingspace .AreaClass {
+  width: 39%;
+}
+#app .Parkingspace .AreaClass .van-field__control {
+  font-size: 18px;
+  /* font-family: PingFangSC-Semibold; */
+  font-weight: 600;
+  color: #434d5d;
+  line-height: 21px;
+  text-align: center;
+}
+#app .Parkingspace .AreaClass .van-hairline--top-bottom::after {
+  border-width: 0;
+}
+#app .Parkingspace .AreaClass .van-field__right-icon {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/parking_arrow@2x.png) no-repeat;
+  background-size: 12px;
+  background-position: 0px;
+}
+#app .Parkingspace .AreaClass .van-field__left-icon {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/icon_map@2x.png) no-repeat;
+  background-size: 12px;
+  background-position: 0px 3px;
+}
+#app .Parkingspace .AreaClass .moneyListBox .van-cell {
+  padding: 0;
+}
+#app .Parkingspace .AreaClass .moneyListBox .van-cell__value--alone {
+  background: #f3cecd;
+  border-bottom: 1px solid #eee;
+}
+#app .Parkingspace .van-field__label {
+  max-width: 90px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #748095;
+}
+#app .Parkingspace .van-button--large {
+  margin: 33px auto 63px;
+  display: block;
+}
+#app .Parkingcarddetails .Vehicletopup .van-button--primary {
+  width: 69px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #F4403D;
+  color: #F4403D;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+#app .Parkingcarddetails .Vehicletopup .van-field__label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #748095;
+}
+#app .Parkingcarddetails .Vehicletopup .phoneClass .van-field__label {
+  color: #C7CAD0;
+}
+#app .Parkingcarddetails .Vehicletopup .phoneClass input::-webkit-input-placeholder {
+  color: #C7CAD0;
+}
+#app .Parkingcarddetails .Vehicletopup .phoneClass input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #C7CAD0;
+}
+#app .Parkingcarddetails .Vehicletopup .phoneClass input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #C7CAD0;
+}
+#app .Parkingcarddetails .Vehicletopup .phoneClass input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #C7CAD0;
+}
+#app .Parkingcarddetails .Vehicletopup .dataTimeBox .van-cell {
+  width: 37%;
+  padding: 10px 0;
+}
+#app .Parkingcarddetails .Vehicletopup .dataTimeBox .van-cell .van-field__left-icon {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/parking_icon_date@2x.png) no-repeat;
+  background-size: 12px;
+  background-position: 0px;
+  position: absolute;
+  left: 69px;
+  top: 14px;
+}
+#app .Parkingcarddetails .Vehicletopup .dataTimeBox .van-cell .van-field__control {
+  text-align: center;
+}
+#app .Parkingcarddetails .Vehicletopup .dataTimeBox .van-cell:nth-child(1) {
+  width: 63%;
+}
+#app .Parkingcarddetails .Vehicletopup .dataTimeBox .van-cell:nth-child(2) .van-field__label {
+  max-width: 16px !important;
+}
+#app .Parkingcarddetails .btnvehicle {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#app .Parkingcarddetails .btnvehicle .van-button--primary {
+  width: 69px;
+  height: 26px;
+  line-height: 25px;
+  background: #fff;
+  border: 1px solid #748095;
+  color: #748095;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+#app .personal .van-button--warning {
+  width: 64px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 0px rgba(154, 63, 63, 0.5);
+  border-radius: 20px;
+  color: #f4403d;
+  border-width: 0px;
+}
+#app .editBox .editform .van-icon-contact3 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_10@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-icon-contactImg {
+  width: 12px;
+  height: 16px;
+  background: url(../../images/company_icon_01@2x.png) no-repeat;
+  background-size: 15px;
+}
+#app .editBox .editform .van-icon-contact2 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_04@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-icon-contact4 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_06@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-icon-contact5 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_07@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-icon-contact6 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_08@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-icon-contact7 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_09@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-icon-contact8 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_10@2x1.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-icon-contact9 {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/company_icon_11@2x.png) no-repeat;
+  background-size: 16px;
+}
+#app .editBox .editform .van-field__left-icon {
+  margin-top: 3px;
+}
+#app .editBox .editform .van-field__label {
+  max-width: 75px;
+  color: #748095;
+}
+#app .editBox .editform .van-cell {
+  font-size: 15px;
+}
+#app .editBox .editform .van-cell-group {
+  padding-top: 10px;
+}
+#app .editBox .editform .van-button--large {
+  margin: 52px auto 63px;
+  display: block;
+}
+#app .editBox .editform .van-popup--top {
+  height: 100%;
+  background: #dcdee3;
+}
+#app .activity .van-tabs .van-tab--active {
+  color: #323233;
+  color: #f4403d;
+  font-weight: 600;
+}
+#app .activity .activityTitBox .van-button--primary {
+  width: 90px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #F4403D;
+  color: #F4403D;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+#app .activity .activityTitBox .van-button--info {
+  width: 90px;
+  height: 30px;
+  border: 1px solid #c7cad0;
+  color: #c7cad0;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+#app .activitydetails .activityTitBox .van-button--primary {
+  width: 67px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #F4403D;
+  color: #F4403D;
+  border-radius: 20px;
+  white-space: nowrap;
+  margin: 0 15px 0 20px;
+}
+#app .activitydetails .activityTitBox .van-button--primary .van-button__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#app .activitydetails .activityTitBox .van-button--info {
+  width: 81px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #c7cad0;
+  color: #c7cad0;
+  border-radius: 20px;
+  white-space: nowrap;
+  margin: 0 15px 0 20px;
+}
+#app .activitydetails .activityTitBox .van-button--info .van-button__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#app .activityApply .van-icon-contactArrows {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/icon/icon_arrow@2x.png) no-repeat;
+  background-size: 8px;
+}
+#app .activityApply .van-cell {
+  font-size: 15px;
+  font-weight: 400;
+  color: #748095;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+#app .activityApply .van-field__label {
+  max-width: 56px;
+}
+#app .activityApply .likeActivity .van-field__label {
+  max-width: 136px;
+}
+#app .activityApply .van-checkbox {
+  padding: 10px;
+}
+.approvaldetails .van-field__label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #748095;
+  max-width: 76px;
+}
+.approvaldetails .van-cell:not(:last-child)::after {
+  content: none;
+}
+.approvaldetails .van-field__control:disabled {
+  opacity: 1;
+  color: #434D5D;
+  background-color: transparent;
+}
+.approvaldetails .van-cell {
+  padding: 7px 15px;
+}
+#app .bulletinList .bulletinListNull .van-button--primary {
+  width: 90px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #F4403D;
+  color: #F4403D;
+  border-radius: 20px;
+  white-space: nowrap;
+}
